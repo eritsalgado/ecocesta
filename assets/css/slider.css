@@ -1,0 +1,192 @@
+.principal{
+    padding-top: 95px;
+}
+.principal .row{
+    display: flex;
+    margin: 0;
+    min-height: 575px;
+}
+.call-to-action, .video{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Chronic-regular'!important;
+    color: white;
+    overflow: hidden;
+}
+.video{
+    background-image: url('../img/caratulavideo-vertical-alta.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.call-to-action.green .col-12{
+    padding-top: 80px;
+}
+.call-to-action.green{
+    height: 575px;
+    background-image: url('../img/fondos/textura_verde_2.png');
+}
+.call-to-action.green img{
+    width: 100%;
+}
+.call-to-action h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.call-to-action h1 span{
+    font-family: 'Chronic-inline';
+    color: #0A6726FF;
+}
+.call-to-action p{
+    font-size: 20px;
+}
+
+
+
+.call-to-action.red .col-12:first-of-type{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.call-to-action.red .col-12:last-of-type{
+    padding-bottom: 80px;
+}
+.call-to-action.red{
+    background-image: url('../img/fondos/textura_roja.png');
+}
+.call-to-action.red img{
+    transform: rotate(10deg);
+    width: 192px;
+    height: auto;
+}
+.call-to-action.red h2{
+    line-height: 28px;
+}
+
+
+
+.amarillo_pastel{
+    color: #F4E7BB;
+}
+.rojo_pastel{
+    color:#F0949C
+}
+
+
+.owl-nav{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+    color:black;
+}
+@media (min-width:767px){
+    .principal{
+        padding-top: 90px;
+    }
+    .call-to-action, .video{
+        height: 575px;
+    }
+    .video{
+        background-repeat: repeat;
+    }
+    .call-to-action.green .row{
+        width: 100%;
+        padding: 0 100px;
+        flex-direction: row-reverse;
+    }
+    .call-to-action.green .col-12:first-of-type{
+        padding: 0 150px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+    .call-to-action.green .col-12:last-of-type{
+        width: 676px;
+        height: 567px;
+    }
+    .call-to-action.green .col-12:last-of-type img{
+        position: absolute;
+        left: 0px;
+        bottom: -10px;
+        width: 80%;
+    }
+    .call-to-action h1{
+        font-size: 60px;
+        font-weight: normal;
+    }
+    .call-to-action h1 span{
+        font-family: 'Chronic-inline';
+    }
+    .call-to-action p{
+        text-align: left;
+        font-family: 'GreycliffCF-bold';
+        font-size: 20px;
+    }
+
+
+    
+    .call-to-action.red .col-12:first-of-type{
+        padding-top: 0;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .call-to-action.red .col-12:last-of-type{
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .call-to-action.red .btn{
+        background-color: transparent!important;
+        background-image: url('../img/botones/rosa.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+        border: none;
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+    .call-to-action.red img{
+        transform: rotate(-10deg);
+        width: 305px;
+        height: auto;
+    }
+    .call-to-action.red h2{
+        line-height: 70px;
+        font-size: 80px;
+        text-align: left;
+    }
+}
+
+@media (min-width:1440px){
+    .call-to-action.green .col-12:first-of-type{
+        padding: 0 300px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+    .call-to-action.green .col-12:last-of-type img{
+        position: absolute;
+        left: 150px;
+        bottom: -50px;
+        width: 80%;
+    }
+}

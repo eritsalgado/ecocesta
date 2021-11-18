@@ -1,0 +1,87 @@
+#hero{
+    padding-top: 80px;
+    background-image: url('../img/fondos/textura_rosa.png');
+}
+#hero .row{
+    flex-direction: column-reverse;
+}
+#hero img{
+    width: 150%;
+}
+#hero .col-12:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .col-12:last-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1{
+    font-size: 52px;
+    line-height: 38px;
+}
+#hero p{
+    font-size: 14px;
+}
+
+
+#videorecetas {
+    background-color: #F8F4ED;
+}
+#videorecetas h2{
+    font-size: 25px;
+}
+#videorecetas img{
+    width: 100%;
+}
+#videorecetas p{
+    color:#BAAD85;
+    font-size: 25px;
+    font-family: 'Chronic-regular';
+}
+
+
+@media (min-width:420px){
+    #hero .col-12:first-of-type{
+        padding: 0!important;
+    }
+}
+
+@media (min-width:760px){
+    #hero{
+        padding-top: 255px;
+        padding-bottom: 100px;
+    }
+    #hero .row{
+        flex-direction: row;
+    }
+    #hero .container{
+        text-align: left!important;
+    }
+    #hero img{
+        width: 170%;
+        position: absolute;
+        top: 0;
+    }
+    #hero h1{
+        font-size: 75px;
+        line-height: 60px;
+        text-align: left!important;
+    }
+    #hero .btn{
+        font-size: 30px;
+    }
+}
+@media (min-width:1020px){
+    #hero img{
+        width: 120%;
+        left: 20px;
+    }
+}
+@media (min-width:1400px){
+    #hero img{
+        top: -150px;
+    }
+}

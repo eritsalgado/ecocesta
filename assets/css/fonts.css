@@ -1,0 +1,34 @@
+/*
+ FONTS
+ ******** Chronic *******
+*/
+@font-face {
+    font-family: 'Chronic-regular';
+    src: url('../fonts/Chronic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chronic-inline';
+    src: url('../fonts/Chronic-Inline.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chronic-dotted';
+    src: url('../fonts/Chronic-Dotted.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GreycliffCF-bold';
+    src: url('../fonts/GreycliffCF-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GreycliffCF-medium';
+    src: url('../fonts/GreycliffCF-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

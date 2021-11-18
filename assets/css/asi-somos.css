@@ -1,0 +1,202 @@
+#hero{
+    padding-top: 80px;
+    background-image: url('../img/fondos/textura_cafe_oscuro.png');
+}
+#hero img{
+    width: 70%;
+}
+#hero .col-12:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .col-12:last-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1{
+    line-height: 38px;
+}
+
+
+#mision h2{
+    font-size: 43px;
+    text-align: center;
+}
+
+.bg-naranja{
+    background-image: url('../img/fondos/textura_naranja.jpg');
+}
+.bg-dorado{
+    background-image: url('../img/fondos/textura_amarilla.png');
+}
+
+
+#claims h4{
+    text-align: center;
+    font-size: 43px;
+    line-height: 35px;
+}
+#claims p{
+    font-size: 14px;
+    line-height: 13px;
+    padding: 0 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+#claims .row{
+    width: 100%;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+}
+#claims .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#claims .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#owl-carousel-claims{
+    position: relative;
+}
+#claims .owl-nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: transparent;
+    color: black;
+}
+#claims .owl-dots{
+    display: none;
+}
+
+
+
+#quienes-somos h4{
+    font-size: 43px;
+}
+#quienes-somos img{
+    width: 100%;
+}
+#quienes-somos .row{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#favoritos-del-mes{
+    background-color: #F8F4ED;
+}
+#favoritos-del-mes .producto{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Chronic-regular';
+    overflow: hidden;
+}
+#favoritos-del-mes .producto p{
+    padding: 0 10px;
+}
+
+#favoritos-del-mes .owl-nav{
+    margin: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+#favoritos-del-mes .owl-dots{
+    display: none;
+}
+
+
+
+
+
+@media (min-width:1024px){
+    #hero{
+        padding-top: 155px;
+    }
+    #hero .col-12:first-of-type{
+        justify-content: right;
+    }
+    #hero img{
+        width: 362px;
+    }
+    #hero h1{
+        font-size: 75px;
+        line-height: 60px;
+        text-align: left!important;
+    }
+    #hero .btn{
+        font-size: 30px;
+    }
+    #hero .container{
+        text-align: left!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #mision h2{
+        font-size: 55px;
+    }
+
+    #mision h2{
+        text-align: left;
+    }
+    #mision img{
+        width: 552px!important;
+    }
+    #mision .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #claims h4{
+        font-size: 80px;
+        line-height: 65px;
+    }
+    #claims p{
+        font-size: 20px;
+        line-height: 65px;
+    }
+    #claims .row{
+        height: 400px;
+    }
+    #claims .owl-nav{
+        justify-content: center;
+    }
+
+
+    
+    #quienes-somos .row{
+        flex-direction: row-reverse;
+    }
+    #quienes-somos img{
+        width: 420px;
+    }
+    #quienes-somos .btn{
+        width: 250px;
+    }
+}
+@media (min-width:1440px){
+    
+}

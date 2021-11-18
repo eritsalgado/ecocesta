@@ -1,0 +1,19 @@
+#newsletter .row{
+    background-color: #B968A5;
+    color: #000;
+}
+.subscriber-form{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.subscriber-form .input-group input{
+    border:none;
+}
+.subscriber-form .input-group button{
+    border-radius: 0;
+    background-color: black;
+    color:white;
+    padding-left:40px;
+    padding-right:40px;
+}

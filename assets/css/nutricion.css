@@ -1,0 +1,95 @@
+#hero{
+    padding-top: 80px;
+    background-image: url('../img/fondos/textura_amarilla.png');
+}
+#hero .row{
+    flex-direction: column;
+}
+#hero img{
+    width: 100%;
+}
+#hero .col-12:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .col-12:last-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1{
+    font-size: 52px;
+    line-height: 38px;
+}
+#hero p{
+    font-size: 14px;
+}
+#hero .btn{
+    font-size: 20px;
+    padding: 20px 90px;
+}
+
+
+#ecoblog {
+    background-color: #F8F4ED;
+}
+#ecoblog h2{
+    font-size: 25px;
+}
+#ecoblog img{
+    width: 288px;
+    height: 258px;
+}
+#ecoblog p{
+    color:#BAAD85;
+    font-size: 25px;
+    font-family: 'Chronic-regular';
+}
+
+
+@media (min-width:420px){
+    #hero .col-12:first-of-type{
+        padding: 0!important;
+    }
+}
+
+@media (min-width:760px){
+    #hero{
+        padding-top: 60px;
+    }
+    #hero .row{
+        flex-direction: row;
+    }
+    #hero .container{
+        text-align: left!important;
+    }
+    #hero img{
+        width: 170%;
+        position: absolute;
+        top: 0;
+    }
+    #hero h1{
+        font-size: 50px;
+        line-height: 60px;
+        text-align: left!important;
+    }
+    #hero .btn{
+        font-size: 30px;
+    }
+}
+@media (min-width:1020px){
+    #hero img{
+        width: 120%;
+        left: 20px;
+    }
+}
+@media (min-width:1400px){
+    #hero{
+        padding-top: 290px;
+        padding-bottom: 100px;
+    }
+    #hero img{
+        top: -150px;
+    }
+}
