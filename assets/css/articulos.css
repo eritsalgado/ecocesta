@@ -1,0 +1,17 @@
+#filtro{
+    padding-top: 80px;
+}
+#filtro h1{
+    padding-top: 30px;
+    font-family: 'Chronic-regular';
+}
+#filtro .descripcion-producto img{
+    width: 100%;
+}
+
+
+@media (min-width:1400px){
+    #filtro{
+        padding-top: 150px;
+    }
+}
